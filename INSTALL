@@ -1,0 +1,11 @@
+#!/bin/bash
+#Install Script for Follow Tools
+
+mkdir ~/.follow
+install -C ./follow.sh ~/.follow/follow.sh
+
+echo "source ~/.follow/follow.sh" >> ~/.bashrc
+echo "source ~/.follow/follow.sh" >> ~/.bash_profile
+
+source ~/.bashrc
+source ~/.bash_profile
