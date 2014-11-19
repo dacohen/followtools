@@ -3,6 +3,16 @@ followtools
 
 Simple Linux Tools for changing to the directory of an action
 
+Installing
+==========
+
+```
+git clone https://github.com/dacohen/followtools.git
+cd followtools
+chmod a+x INSTALL
+./INSTALL
+```
+
 Usage
 =====
 
